@@ -1,0 +1,29 @@
+﻿{
+    "id": "8cb08629-97e3-41f1-a668-a9a5b474c96d",
+    "name": "PayPal CSV Import",
+    "publisher": "Navision.guru",
+    "brief": "Import PayPal CSV file to bank account reconciliation",
+    "description": "Additional code to enable import of PayPal CSV via Data Exchange Framework into Bank Account Reconciliation",
+    "version": "1.0.0.0",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "target": "Extension",
+    "showMyCode": true,
+    "features": [
+        "TranslationFile"
+    ],
+    "capabilities": [],
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "14.0.0.0",
+    "application": "14.0.0.0",
+    "test": "14.0.0.0",
+    "runtime": "3.0",
+    "idRange": {
+        "from": 55200,
+        "to": 55289
+    }
+}

@@ -1,0 +1,13 @@
+﻿{
+    "branchId":  "8cb08629-97e3-41f1-a668-a9a5b474c96d",
+    "navVersion":  "14.0.0.0",
+    "dockerImage":  "mcr.microsoft.com/businesscentral/onprem:1904-is",
+    "navSolution":  "IS",
+    "Languages": [
+        {
+            "Language": "is-IS"
+        }
+    ],
+    "projectName":  "bc",
+    "dockerShared": "ture"
+}

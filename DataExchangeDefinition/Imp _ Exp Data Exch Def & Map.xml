@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <DataExchDef Code="PAYPAL" Name="PAYPAL CSV File" Type="0" ExternalDataHandlingCodeunit="1240" HeaderLines="1" FileEncoding="1" FileType="1" ReadingWritingCodeunit="55202">
+    <DataExchLineDef LineType="1" Code="DEFAULT" Name="DEFAULT" ColumnCount="10">
+      <DataExchColumnDef ColumnNo="1" Name="Date" Show="false" DataType="1" DataFormat="dd/MM/yyyy" DataFormattingCulture="en-US" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="2" Name="Time" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="3" Name="Time Zone" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="4" Name="Name" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="5" Name="Type" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="6" Name="Status" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="7" Name="Currency" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="8" Name="Amount" Show="false" DataType="2" DataFormattingCulture="en-US" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="9" Name="Receipt ID" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchColumnDef ColumnNo="10" Name="Balance" Show="false" DataType="2" DataFormattingCulture="en-US" TextPaddingRequired="false" Justification="0" UseNodeNameAsValue="false" />
+      <DataExchMapping TableId="274" Name="CSV file from PayPal" MappingCodeunit="1248" DataExchNoFieldID="17" DataExchLineFieldID="18" PostMappingCodeunit="55203">
+        <DataExchFieldMapping ColumnNo="1" FieldID="5" />
+        <DataExchFieldMapping ColumnNo="4" FieldID="6" />
+        <DataExchFieldMapping ColumnNo="5" FieldID="16" />
+        <DataExchFieldMapping ColumnNo="6" FieldID="23" />
+        <DataExchFieldMapping ColumnNo="7" FieldID="55200" />
+        <DataExchFieldMapping ColumnNo="8" FieldID="7" />
+        <DataExchFieldMapping ColumnNo="9" FieldID="4" Optional="true" />
+        <DataExchFieldMapping ColumnNo="10" FieldID="55201" />
+      </DataExchMapping>
+    </DataExchLineDef>
+  </DataExchDef>
+</root>
